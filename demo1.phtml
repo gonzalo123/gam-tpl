@@ -1,0 +1,7 @@
+<h1>Example of tpl</h1>
+<p>var1 = <?= $this->_('var1') ?></p>
+<p>var2 = <?= $this->_('var2') ?></p>
+<?php foreach ($this->_('var3') as $item) {
+    echo $this->clean($item);
+}
+?>
